@@ -3,11 +3,8 @@
 #include <stdio.h>
 #include <math.h>
   
-float frandom() {
-  long int q = random();
-  float ret = (float)q/(float)RAND_MAX;
-  return ret;
-}
+float mc_pi(int);
+
 float mc_pi(int n){
 int a=0,b=n;
 	
